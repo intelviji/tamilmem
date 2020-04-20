@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TamilMemory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <style type="text/css">
+    body{
+         background-color:teal;
+         background-size:100%;
+         background-repeat:repeat;
+        }
+		 .row{
+		background-color:teal;
+		}
+p
+{
+color:white;
+text-align:center;
+font-size:14px;
+font-weight:bolder;
+}
+
+  </style>
+</head>
+<body>
+<audio id="myvoice" type="audio/ogg"></audio>
+<audio id="bg" src="../img/buddy.mp3" autoplay ></audio>
+<div id="learnmenu">
+<div class="container">
+	<div class="row">
+		<div class="col-xs-3 col-md-3">
+			<a href="learnmenu.html"><img src="../img/back_icon.png" class="img-responsive"  /></a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="ka"><img src="../img/ka.jpg" class="img-responsive"> </a>
+			<p> க வரிசை  </p>
+		</div>
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="nga"><img src="../img/nga.jpg" class="img-responsive"> </a>
+			<p> ங வரிசை  </p>
+		</div>
+
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="cha"><img src="../img/cha.jpg" class="img-responsive"> </a>
+			<p> ச வரிசை  </p>
+		</div>
+
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="ngya"><img src="../img/ngya.jpg" class="img-responsive"> </a>
+			<p> ஞ வரிசை  </p>
+		</div>
+
+
+	</div><!-- end of 1st row -->
+
+	<div class="row">
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="da"><img src="../img/da.jpg" class="img-responsive"> </a>
+			<p> ட வரிசை  </p>
+		</div>
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="naa"><img src="../img/naa.jpg" class="img-responsive"> </a>
+			<p> ண வரிசை  </p>
+		</div>
+
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="tha"><img src="../img/tha.jpg" class="img-responsive"> </a>
+			<p> த வரிசை  </p>
+		</div>
+
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="na1"><img src="../img/na1.jpg" class="img-responsive"> </a>
+			<p> ந வரிசை  </p>
+		</div>
+
+
+	</div><!-- end of 2nd row -->
+
+	<div class="row">
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="pa"><img src="../img/pa.jpg" class="img-responsive"> </a>
+			<p> ப வரிசை  </p>
+		</div>
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="ma"><img src="../img/ma.jpg" class="img-responsive"> </a>
+			<p> ம வரிசை  </p>
+		</div>
+
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="ya"><img src="../img/ya.jpg" class="img-responsive"> </a>
+			<p> ய வரிசை  </p>
+		</div>
+
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="ra"><img src="../img/ra.jpg" class="img-responsive"> </a>
+			<p> ர வரிசை  </p>
+		</div>
+
+
+	</div><!-- end of 3rd row -->
+
+	<div class="row">
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="la"><img src="../img/la.jpg" class="img-responsive"> </a>
+			<p> ல வரிசை  </p>
+		</div>
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="va"><img src="../img/va.jpg" class="img-responsive"> </a>
+			<p> வ வரிசை </p>
+		</div>
+
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="LLA"><img src="../img/LLA.jpg" class="img-responsive"> </a>
+			<p> ழ வரிசை </p>
+		</div>
+
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="llla"><img src="../img/llla.jpg" class="img-responsive"> </a>
+			<p> ள வரிசை </p>
+		</div>
+
+
+	</div><!-- end of 4th row -->
+
+	<div class="row">
+
+
+		<div class="col-xs-3 col-md-3">
+		</div>
+
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="tra"><img src="../img/tra.jpg" class="img-responsive"> </a>
+			<p> ற வரிசை     </p>
+		</div>
+		<div class="col-xs-3 col-md-3">
+			<a class="aclick" data-varisai="nna"><img src="../img/nna.jpg" class="img-responsive"> </a>
+			<p> ன வரிசை  </p>
+		</div>
+
+		<div class="col-xs-3 col-md-3">
+		</div>
+
+
+	</div><!-- end of 5th row -->
+</div> <!-- end of container -->
+</div> <!-- learn menu -->
+<div id="learncontent">
+	<div class="container-fluid">
+		<div class="row" > <!-- start of top row menu section -->
+			<div class="col-xs-3 col-md-3">
+			</div>
+			<div class="col-xs-3 col-md-3 col-sm-3">
+				<a id="goback1"><img src="../img/back_icon.png" class="img-responsive"  /></a>
+			</div>
+			<div class="col-xs-3 col-md-3">
+			</div>
+			<div class="col-xs-3 col-md-3 col-sm-3">
+			<img src="../img/speaker.png" class="img-responsive" id="speaker" />
+			</div>
+		</div> <!-- end of top row menu section -->
+	</div> <!-- end of container -->
+<div id="learndata">
+		
+	
+</div> <!-- end of learn data -->
+</div> <!-- end of learn content -->
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery-ui.min.js"></script>
+<script src="../js/learn.js"></script>
+<script>
+$(document).ready(function(){
+var varisai;
+var output = '';
+$("#learncontent").hide();
+$("#goback1").click(function(){
+	$("#learncontent").hide();
+	$("#learnmenu").show("slow");
+});
+
+function load_content(myarr)
+	{
+		output = '<div class="container-fluid">';
+		for(var i=0;i<myarr.length;i++)
+		{
+			output += '<div class="row">';
+			for(var j=0;j<3;j++,i++)
+			{
+				output += '<div class="col-xs-4 col-md-4">';
+				output += '<img src="../img/' + myarr[i] + '.jpg"  class="img-responsive clickme" alt="' + myarr[i] + '" />';
+				output += '</div>';
+			}
+			i--;
+			output += '</div>';
+		}
+		output += '</div>';
+		
+		$("#learndata").html(output);
+	}
+	$(".aclick").click(function(){
+		varisai = $(this).data("varisai");
+		myarr = array_gen(varisai);
+		console.log(myarr);
+		$("#learnmenu").hide();
+		$("#learncontent").show("slow");
+		load_content(myarr);
+	});
+	
+});
+</script>
+ <script type="text/javascript" src="../cordova.js"></script>
+<script type="text/javascript" src="../js/admob_simple.js"></script> 
+</body>
+</html>
